@@ -1,9 +1,47 @@
-body {
-  background-color: blueviolet;
-  background-color: beige;
-  /* background-color: aqua; */
+/* .btn-submit {
+  font-style: italic;
+  font-size: 24px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  background-color: lightgreen;
 }
 
-h1 {
-  color: purple;
+.btn-info {
+  font-style: italic;
+  font-size: 24px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  background-color: lightblue;
+}
+
+.btn-cancel {
+  font-style: italic;
+  font-size: 24px;
+  text-decoration: underline;
+  text-transform: uppercase;
+  background-color: darkgray;
+} */
+
+.btn {
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: underline;
+  text-transform: uppercase;
+} 
+
+.btn-success {
+  background-color: lightgreen;
+}
+
+.btn-info {
+  background-color: lightskyblue;
+}
+
+.btn-default {
+  background-color: darkgray;
+}
+
+.btn-danger {
+  background-color: lightcoral;
+  font-style: italic;
 }
