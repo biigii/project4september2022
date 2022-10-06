@@ -1,90 +1,42 @@
-/* h1 {
-  color: blue;
-}
-
-h1 {
-  color: green;
-} */
-
-h1 {
-  text-align: center;
-  color: red;
-  color: pink;
-  color: orange;
-}
-
-/* id class type selector */
-
- /* 1 0 0  */
-#content {
-  color: purple;
-  background-color: cornflowerblue;
+/* 0 1 1 */
+p.burger {
+  background-color: red;
 }
 
 /* 0 1 0 */
-.text {
-  color: white;
-  background-color: green;
-}
-
-.food {
-  background-color: chartreuse;
-}
-
 .burger {
-  font-style: italic;
-}
-
-/* 0 0 1 */
- /* p {
-  color: red;
-  background-color: blueviolet;
-  font-size: 24px;
- } */
-
- .sub-heading {
-  text-decoration: underline;
-  font-style: italic;
-  text-transform: capitalize;
- }
-
-h2.sub-heading {
-  color: red;
-}
-
-h4.sub-heading {
-  color: blue;
-}
-
-.food h3 {
-  background-color: yellow;
-}
-
-/* .food p {
-  color: red;
-} */
-
-.food .burger {
-  color: red;
-}
-
-/* .food.burger {
-  background-color: orange;
-} */
-
-
-.food p.burger {
-  background-color: black;
-}
-
-.top-block h2 {
-  color: red;
-}
-
-.top-block p {
-  font-style: italic;
-}
-
-.top-block button {
   background-color: pink;
 }
+
+/* 1 1 1 */
+h3.subheading#heading-3 {
+  background-color: cornflowerblue;
+}
+
+/* 1 0 1 */
+h3#heading-3 {
+  background-color: burlywood;
+}
+
+/* 1 0 0 */
+#heading-3 {
+  background-color: blueviolet;
+}
+
+/* 1 0 0 */
+#fruit {
+  background-color: brown;
+}
+
+/* 0 2 1 */
+p.pizza.fruit {
+  background-color: darkcyan;
+}
+
+/* 0 1 1 */
+p.pizza {
+  background-color: yellowgreen;
+}
+
+
+
